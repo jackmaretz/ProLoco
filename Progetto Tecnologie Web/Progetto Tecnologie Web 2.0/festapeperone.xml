@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<?xml-stylesheet type="text/xsl" href="festapeperone.xsl"?>
+
+<festapeperone>
+
+  <giornopeperone giorno="Venerdi 29 Agosto">
+    <evepep ora="21.00">Sala Liscio: Rodigini
+    </evepep>
+    <evepep ora="22.00">Sala Giovani: musica con Dj
+    </evepep>
+  </giornopeperone>
+  
+  <giornopeperone giorno="Sabato 30 Agosto">
+    <evepep ora="10.45">Inaugurazione della 47a Mostra Interprovinciale del peperone e dei prodotti stagionali; 14a Mostra dell'Artigianato; Mostra degli Antichi
+            Mestieri (rappresentata da "I colmelli"); Assegnazione Borse di Studio; Esibizione della Banda Cittadina L. Scattolin e sfilata dei
+            Colmelli di Zero Branco e coro folkloristico Pallo; Esposizione trattori
+    </evepep>
+    <evepep ora="21.00">Sala A: Orchestra Riva del Mare
+    </evepep>
+    <evepep ora="22.00">Sala B: Serata con Dj
+    </evepep>
+  </giornopeperone>
+  
+  <giornopeperone giorno="Domenica 31 Agosto">
+    <evepep ora="08.00">Apertura Bar
+     </evepep>
+    <evepep ora="10.45">Sfilata e Benedizione dei trattori
+    </evepep>
+    <evepep ora="10.30">Mostra degli Antichi Mestieri (rappresentata da "I Colmelli" con "E Bashe Dea Zosagna")
+    </evepep>
+    <evepep ora="11.00">Inaugurazione mostra Bicentenario della Fondazione dell'Arma dei Carabinieri presso la Sala Consigliare del Municipio di Zero Branco
+    </evepep>
+    <evepep ora="11.00">Esibizione Aeromodellismo e volo indoor
+    </evepep>
+    <evepep ora="11.30">Dimostrazione Amici Canti a cura di FlentxDog
+    </evepep>
+    <evepep ora="12.00">Apertura stand gastronomici
+    </evepep>
+    <evepep ora="12.30">Pranzo contadino a prezzo agevolato
+    </evepep>
+    <evepep ora="15.30">Sala A: Intrattenimento con gruppo sportivo
+    </evepep>
+    <evepep ora="18.30">Spritz Hours ed apertura stand gastronomici
+    </evepep>
+    <evepep ora="21.00">Sala A: Enrico Marchiante
+    </evepep>
+    <evepep ora="22.00">Serata con Dj
+    </evepep>
+  </giornopeperone>
+  
+  <giornopeperone giorno="Lunedi 1 Settembre">
+    <evepep ora="18.30">Spritz Hours ed apertura stand gastronomici
+    </evepep>
+    <evepep ora="20.00">L'Enoteca propone una serata di Eventi Gastronomici su prenotazione al numero 3427613419
+    </evepep>
+    <evepep ora="21.00">Sala A: serata BACCO X BACCO e Radio Bella e Monella
+    </evepep>
+    <evepep ora="22.00">Sala B: Treviso Sport A.S.D.
+    </evepep>
+  </giornopeperone>
+  
+  <giornopeperone giorno="Martedi 2 Settembre">
+    <evepep ora="18.30">Spritz Hours ed apertura stand gastronomici
+    </evepep>
+    <evepep ora="21.00"> Sala A: Intrecci di Moda
+    </evepep>
+    <evepep ora="22.00">Sala B: Serata con Dj - Musica Country
+    </evepep>
+  </giornopeperone>
+  
+  <giornopeperone giorno="Mercoledi 3 Settembre">
+    <evepep ora="18.30">Spritz Hours ed apertura stand gastronomici
+    </evepep>
+    <evepep ora="19.30">Cena attivita produttive: cena a prezzo agevolato per tutti
+    </evepep>
+    <evepep ora="21.00">Sala A: Terza edizione Salone Zero (Ospiti della serata: Marco e Pippo)
+    </evepep>
+    <evepep ora="22.00">Sala B: Dimostrazione Arte Marziale
+    </evepep>
+  </giornopeperone>
+  
+  <giornopeperone giorno="Giovedi 4 Settembre">
+    <evepep ora="18.30">Spritz Hours ed apertura stand gastronomici
+    </evepep>
+    <evepep ora="19.30">Cena attivita produttive: cena a prezzo agevolato per tutti
+    </evepep>
+    <evepep ora="21.00">Sala A: Terza edizione Salone Zero (Ospiti della serata: Marco e Pippo)
+    </evepep>
+    <evepep ora="22.00">Sala B: Dimostrazione Arte Marziale
+    </evepep>
+  </giornopeperone>  
+ 
+ <giornopeperone giorno="Venerdi 5 Settembre">
+    <evepep ora="18.30">Spritz Hours ed apertura stand gastronomici
+    </evepep>
+    <evepep ora="21.00">Sala A: Orchestra Renzo Biondi 
+    </evepep>
+    <evepep ora="22.00">Sala B: Esibizione di ballo dell'associazione sportiva Elena Danze
+    </evepep>
+  </giornopeperone>  
+  
+ <giornopeperone giorno="Sabato 6 Settembre">
+    <evepep ora="18.30">Apertura XIX Mostra Micologica
+    </evepep>
+    <evepep ora="18.30">Spritz Hours ed apertura stand gastronomici
+    </evepep>
+    <evepep ora="21.00">Sala A: Orchestra CHECCO E LA B BAND
+    </evepep>
+    <evepep ora="22.00">Sala B: Spettacolo del gruppo sportivo Sambughe
+    </evepep>
+  </giornopeperone>  
+  
+  <giornopeperone giorno="Domenica 7 Settembre">
+    <evepep ora="08.00">Apertura Bar
+    </evepep>
+    <evepep ora="10.30">Sfilata auto d'epoca a cura dell'associazione Graticole Romanus
+    </evepep>
+    <evepep ora="11.00">Laboratorio Aquiloni Per Bambini a cura dell'associazione Liberi di Volare
+    </evepep>
+    <evepep ora="12.00">Apertura stand gastronomici
+    </evepep>
+    <evepep ora="12.30">Pranzo sociale Associazione Anziani di Zero Branco
+    </evepep>
+    <evepep ora="14.00">The Angels
+    </evepep>
+    <evepep ora="14.30">Mostra degli Antichi Mestieri (rappresentata da "I Colmelli")
+    </evepep>
+    <evepep ora="18.30">Spritz Hours ed apertura stand gastronomici
+    </evepep>
+    <evepep ora="21.00">Sala A: orchestra Marco e Il Clan
+    </evepep>
+    <evepep ora="22.00">Serata con Dj
+    </evepep>
+  </giornopeperone>  
+  
+<giornopeperone giorno="Lunedi 8 Settembre">
+    <evepep ora="18.30">Spritz Hours ed apertura stand gastronomici
+    </evepep>
+    <evepep ora="21.00">Sala A: Orchestra Renza Glamour
+    </evepep>
+    <evepep ora="23.30">Chiusura della Manifestazione con grande spettacolo pirotecnico
+    </evepep>
+  </giornopeperone>  
+  
+ </festapeperone>
