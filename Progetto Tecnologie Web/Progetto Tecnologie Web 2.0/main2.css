@@ -39,10 +39,10 @@ html, body {
   color: #FFA799;
   text-decoration: underline;
   }  
-  .lista li a:active {
+.lista li a:active {
   font-weight: bold;
   }
- .inizio {
+.inizio {
   text-align: center;
   position: relative;
   top: 2em;
