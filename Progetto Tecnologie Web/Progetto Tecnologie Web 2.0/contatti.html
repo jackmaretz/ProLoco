@@ -3,11 +3,12 @@
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
 <title>Contatti - Pro Loco di Zero Branco</title>
-<meta name="keywords" content="Pro Loco Zero Branco, Eventi Zero Branco, Feste Zero Branco" />
-<meta name="description" content="Pagina delle foto degli eventi della Pro Loco di Zero Branco." />
+<meta name="keywords" content="Pro Loco Zero Branco, Eventi Zero 	Branco, Feste Zero Branco" />
+<meta name="description" content="Pagina delle foto degli eventi 	della Pro Loco di Zero Branco." />
 <meta name="HandheldFriendly" content="True" />
 <meta name="MobileOptimized" content="320" />
-<meta name="viewport" content="width=device-width, initial-scale=1.0,minimum-scale=1.0, maximum-scale=1.0, user-scalable=no" />	
+<meta name="viewport" content="width=device-width, 
+	initial-scale=1.0,minimum-scale=1.0, maximum-scale=1.0, user-scalable=no" />	
 <meta name="viewport" content="height=device-height, initial-scale=1.0,minimum-scale=1.0, maximum-scale=1.0, user-scalable=no" />	
 <meta name="author" content="Giulia Zanibellato, Giacomo Maretto, Patrizio Stella" />
 <meta name="rating" content="general" />
@@ -22,7 +23,7 @@
 
 <link  rel="stylesheet" type="text/css" href="cssMobile.css" media="handheld, only screen and (max-width: 658px), only screen and (max-device-width: 658px)" />  
 
-
+<script type="text/javascript" src="./controllo.js"> </script>
 
 </head>
 <body>
@@ -48,7 +49,7 @@
 <h3>Informazioni</h3>
   <p>Pro Loco di Zero Branco </p>
   <p>Segreteria: Via Alessandro Manzoni, 20/D </p>
-  <p>Zero Branco, 31059, TV</p>
+  <p>Zero Branco-31059 (TV)</p>
   <div id="mappa">
   <iframe id="framemappa" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2791.636439004152!2d12.161813653816552!3d45.59785283925472!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47793455f9a39589%3A0x51d35237d1caa79f!2sPro+Loco!5e0!3m2!1sit!2sit!4v1421142899464" width="1600" height="550" frameborder="0" style="border:0"></iframe>
   </div>
@@ -62,13 +63,30 @@
 		<li><input name="name" id="name" value="Inserisci il tuo nome" maxlenght="15" />  </li>
 		<li><label for="surname">Cognome:</label>   </li>
 		<li><input name="surname" id="surname" value="Inserisci il tuo cognome" maxlenght="30" />  </li>
-		<li><label for="email">E-mail:</label>   </li>
+		<li><label for="email">Email:</label>   </li>
 		<li><input name="email" id="email" value="Inserisci la tua mail" required pattern="[^@]+@[^@]+\.[a-zA-Z]{2,6}"  /> </li>
-		<input type="button" name="controlla" id="controlla" value="Controlla campi" />
-    <input type="reset" name="cancella" id="cancella" value="Cancella tutto" />
-    <input type="submit" name="bottoneinvio" id="bottoneinvio" value="Invia" />
-    
-    </ul>
+		<li><label for="evento1">Evento a cui hai partecipato:</label>   </li>
+		<li> <select name="dropdown">
+		<option value="Carnevale" selected>Carnevale</option>
+		<option value="FestaDelRadicchio">Festa del Radicchio</option>
+		<option value="MostraDellAsparago" selected>Mostra dell'Asparago</option>
+		<option value="SagraDelPeperone" selected>Sagra del Peperone</option>
+		</select>
+		</li>
+		</ul>
+
+	
+
+
+	<p><input type="button" name="controlla" id="controlla" value="Controlla campi"  tabindex="11" onclick="controllaCampi();"/>
+	</p>			
+	<p><input type="reset" name="cancella"  id="cancella" value="Cancella tutto" tabindex="12" />
+	</p>
+	<p><input type="submit" name="bottoneinvia" id="bottoneinvia" value="Invia" tabindex="13"  />
+	</p>
+
+
+
     </div>
     
     <div id="formdx">
@@ -77,6 +95,10 @@
         Scrivi qualcosa qui 
 		</textarea> </li></ul>
     </div>
+
+
+	
+
     </form>
  </div> 
  

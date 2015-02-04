@@ -28,6 +28,7 @@ html, body {
   display: inline;
   padding: 0 0.5em 0;
   }
+
 .lista li a:link {
   text-decoration: none;
   color: white;
