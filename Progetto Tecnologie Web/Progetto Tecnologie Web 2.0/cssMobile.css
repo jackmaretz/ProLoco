@@ -9,7 +9,7 @@ html, body {
   position: fixed;
   top: 0;
   left: 0;
-  font-size: 1.5em;
+  font-size: 0.5em;
   background color: #455A64;
   text-align: center;
   margin: 0;
@@ -80,12 +80,12 @@ html, body {
   padding: 1em 0.5em;
   }
   .articolo h2 {
-  font-size: 3em;
+  font-size: 1em;
   color: black;
   text-align: center;
   }
   .articolo p {
-  font-size: 1.5em;
+  font-size: 0.5em;
   color: black;
   text-align: justify;
   }
@@ -153,7 +153,6 @@ html, body {
   }
   
   
-  
   .info{
   position: relative;
   width: 86%;
@@ -197,18 +196,7 @@ html, body {
   color: #EEE8AA;
   text-decoration: none;
   }
-  
-  #formsx {
-  float: left;
-  text-align: center;
-  padding: 0 auto;
-  margin-left: 15%;
-   margin-right: 15%;
-  }
-  #formdx {
-  list-style-type: none;
-  text-align: center;
-  }
+
 
   #form li {
   padding: 0.5em;

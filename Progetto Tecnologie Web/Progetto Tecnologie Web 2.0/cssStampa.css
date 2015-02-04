@@ -2,7 +2,7 @@ html, body {
     background: white;
     font-size: 12pt;
     color: black;
-    font-family:Arial, Helvetica, sans-serif;
+    font-family: Times, Helvetica, sans-serif;
     margin:0;
 	padding:0;
 }
@@ -12,3 +12,16 @@ html, body {
 	text-align:center;
 	
 }
+
+.header h1 {
+  	
+	font-size: 1em;
+	text-align: center;
+  	
+  }
+  .eventi img {
+  width: 95%;
+  display: none;
+  }
+
+
