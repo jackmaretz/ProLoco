@@ -10,7 +10,7 @@
       <nome>Festa di Primavera</nome>
       <datainizio>2015-01-09</datainizio>
       <datafine>2015-01-19</datafine>      
-      <locazione>Presso la struttura di via Taliercio</locazione>
+      <locazione>Presso Piazza Umberto I</locazione>
       <immagine src="asparagi.jpg">asparagi.jpg</immagine>
     </evento>
     
@@ -23,11 +23,11 @@
     </evento>
     
     <evento>
-      <nome>Zerock</nome>
-      <datainizio>2015-03-08</datainizio>
-      <datafine>2015-03-18</datafine>
-      <locazione>Presso la struttura di via Taliercio</locazione>
-      <immagine src="palloncini.jpg">palloncini.jpg</immagine>
+      <nome>Carnevale</nome>
+      <datainizio>2015-02-07</datainizio>
+      <datafine>2015-02-07</datafine>
+      <locazione>Presso Piazza Umberto I</locazione>
+      <immagine src="carnevale.jpg">carnevale.jpg</immagine>
     </evento>
     
     <evento>
