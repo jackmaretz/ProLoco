@@ -165,7 +165,7 @@ html, body {
   width: 20%;
   }
   #mappa {
-  width: 86%;
+  width: 55%;
   margin: 2em auto;
   }
   #framemappa {
@@ -197,7 +197,7 @@ html, body {
   color: #EEE8AA;
   text-decoration: none;
   }
-  
+
   #formsx {
   float: left;
   text-align: center;
