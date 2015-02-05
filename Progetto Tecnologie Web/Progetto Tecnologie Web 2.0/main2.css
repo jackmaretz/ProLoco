@@ -53,6 +53,7 @@ html, body {
   text-align: center;
   background-image: url("images/proloco.png");
   background-repeat: no-repeat;
+  background-attachment: fixed;
   padding-bottom: 3em;
   padding-top: 1.5em;
   background-position: center center;
