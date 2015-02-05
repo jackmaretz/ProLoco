@@ -1,218 +1,212 @@
 html, body {
-  margin: 0;
-  padding: 0;
-  font-family: "Cabin", Arial;
-  }
-  
-  /* inizio barra orizzontale di navigazione */
+	margin: 0;
+	padding: 0;
+	font-family: "Cabin", Arial;
+	}
+
+	 /* inizio barra orizzontale di navigazione */
 .lista {
-  width: 100%;
-  position: fixed;
-  top: 0;
-  left: 0;
-  font-size: 0.5em;
-  background color: #455A64;
-  text-align: center;
-  margin: 0;
-  padding: 0;
-  z-index: 10;
-  }
+	width: 100%;
+	position: fixed;
+	top: 0;
+	left: 0;
+	font-size: 0.8em;
+	background-color: #455A64;
+	text-align: center;
+	margin: 0;
+	padding: 0;
+	z-index: 10;
+	}
 .lista ul {
-  background-color: #455A64;  
-  text-align: center;
-  margin: 0;
-  padding: 0.9em;
-  }
+	background-color: #455A64;  
+	text-align: center;
+	margin: 0;
+	padding: 0.9em;
+	}
 .lista li {
-  color: white;
-  background-color: #455A64;
-  display: inline-block;
-  *zoom: 1;
-  *display: inline;
-  padding: 0 0.5em 0;
-  }
+	color: white;
+	background-color: #455A64;
+	display: inline;
+	padding: 0 0.5em 0;
+	}
 .lista li a:link {
-  text-decoration: none;
-  color: white;
-  } 
-  .lista li a:visited {
-  color: white;
-  }               
+	text-decoration: none;
+	color: white;
+	} 
+.lista li a:visited {
+	color: white;
+	}               
 .lista li a:hover {
-  color: #FFA799;
-  text-decoration: underline;
-  }  
+	color: #FFA799;
+	text-decoration: underline;
+	}  
 .lista li a:active {
-  font-weight: bold;
-  }
-  /*fine barra navigazione orizzontale */
-  
-  /*intestazione*/
+	font-weight: bold;
+	}
+
+	 /*fine barra navigazione orizzontale */
+	 
+	 /*intestazione*/
 .inizio {
-  text-align: center;
-  position: relative;
-  top: 2em;
-  width: 100%;
-  }
+	text-align: center;
+	position: relative;
+	top: 2em;
+	width: 100%;
+	}
 .header {
-  text-align: center;
-  background-image: url("citta.jpg");
-  background-repeat: no-repeat;
-  padding-bottom: 3em;
-  padding-top: 1.5em;
-  background-position: center center;
-  }
-  .header h1 {
-  font-size: 4em;
-  text-align: center;
-  color: #455A64;
-  }
-  .path {
-  background-color: #455A64;
-  margin: 0;   
-  position: relative;
-  top:0em;
-  padding: 0.1em;
-  }
-  .path p {
-  color: white;
-  }
-  /*fine intestazione*/
-  
-  
-  /*regole di stile per le singole pagine */
+	text-align: center;
+	background-color: #F0F8FF;
+	padding-bottom: 1.5em;
+	padding-top: 1.5em;
+	}
+.header h1 {
+	font-size: 2.2em;
+	text-align: center;
+	color: #455A64;
+	}
+.path {
+	background-color: #455A64;
+	margin: 0;   
+	position: relative;
+	top:0em;
+	padding: 0.001 em;
+	}
+.path p {
+	font-size: 0.8em;
+	color: white;
+	}
+
+	/*fine intestazione*/
+
+/*regole di stile per le singole pagine */
   .articolo {
-  font-style: justify;
-  position: relative;
-  width: 68%;
-  text-align: center;
-  margin: 2em auto 0;
-  padding: 1em 0.5em;
-  }
-  .articolo h2 {
-  font-size: 1em;
-  color: black;
-  text-align: center;
-  }
-  .articolo p {
-  font-size: 0.5em;
-  color: black;
-  text-align: justify;
-  }
-  .articolo img {
-  width: 95%;
-  }
-  .eventi {
-  position: relative;
-  width: 86%;
-  text-align: center;
-  margin: 2em auto 0;
-  padding: 1em 0.5em;
-  }
-  .eventi h2 {
-  font-size: 3em;
-  color: black;
-  text-align: center;
-  }
-  .eventi h3 {
-  font-size: 2.4em;
-  color: black;
-  text-align: center;
-  }
-  .eventi p {
-  font-size: 1.5em;
-  color: black;
-  }
-  .eventi img {
-  width: 95%;
-  }
-  .eventi ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0; 
-  }
-  .contatti {
-  background-color: #DCDCDC;
-  position: relative;
-  text-align: center;
-  margin: 2em auto 0;
-  padding: 1em 0.5em;
-  }
-  .contatti h2 {
-  font-size: 3em;
-  color: black;
-  text-align: center;
-  }
-  .contatti h3 {
-  font-size: 2.4em;
-  color: black;
-  text-align: center;
-  }
-  .contatti p {
-  font-size: 1.5em;
-  color: black;
-  text-align: center;
-  }
-  .contatti img {
-  width: 95%;
-  }
-  .contatti ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0; 
-  }
-  
-  
-  .info{
-  position: relative;
-  width: 86%;
-  text-align: center;
-  margin: 2em auto 0;
-  padding: 1em 0.5em;
-  }
-  .info img{
-  width: 20%;
-  }
-  
+.articolo {
+	font-style: justify;
+	position: relative;
+	width: 68%;
+	text-align: center;
+	margin: 2em auto 0;
+	padding: 1em 0.5em;
+	}
+.articolo h2 {
+	font-size: 1em;
+	color: black;
+	text-align: center;
+	}
+.articolo p {
+	font-size: 0.8em;
+	color: black;
+	text-align: justify;
+	}
+.articolo img {
+	width: 95%;
+	}
+.eventi {
+	position: relative;
+	width: 86%;
+	text-align: center;
+	margin: 2em auto 0;
+	padding: 1em 0.5em;
+	}
+.eventi h2 {
+	font-size: 2em;
+	color: black;
+	text-align: center;
+	}
+.eventi h3 {
+	font-size: 1.4em;
+	color: black;
+	text-align: center;
+	}
+.eventi p {
+	font-size: 0.8em;
+	color: black;
+	}
+.eventi img {
+	width: 95%;
+	}
+.eventi ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0; 
+	}
+.contatti {
+	background-color: #DCDCDC;
+	position: relative;
+	text-align: center;
+	margin: 2em auto 0;
+	padding: 1em 0.5em;
+	}
+.contatti h2 {
+	font-size: 2em;
+	color: black;
+	text-align: center;
+	}
+.contatti h3 {
+	font-size: 1.4em;
+	color: black;
+	text-align: center;
+	}
+.contatti p {
+	font-size: 0.8em;
+	color: black;
+	text-align: center;
+	}
+.contatti img {
+	width: 95%;
+	}
+.contatti ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0; 
+	} 
+.info{
+	position: relative;
+	width: 86%;
+	text-align: center;
+	margin: 2em auto 0;
+	padding: 1em 0.5em;
+	}
+.info img{
+	width: 20%;
+	}
+
   /*regole per la mappa */
-  #mappa {
-  width: 86%;
-  margin: 2em auto;
-  }
-  #framemappa {
-  width: 100%;
-  margin: 0;
-  padding: 0;
-  }
-  /*fine regole mappa */
+#mappa {
+	width: 86%;
+	margin: 2em auto;
+	}
+#framemappa {
+	width: 100%;
+	margin: 0;
+	padding: 0;
+	}
+
+	  /*fine regole mappa */
   
-  
-  .listaeventi {
-  border-bottom: 2px dashed grey;
-  }
-
-  #oraevento {
-  font-weight: bold;
-  border-bottom: 1px dashed grey;
-  padding-bottom: 1em;
-  }
-  .footer {
-  text-align: center;
-  font-size: 1em;
-  background-color: #455A64;
-  margin: 0;
-  padding: 1em;
-  }
-  .footer p {
-  color: white; 
-  }
-  .footer a {
-  font-weight: bold;
-  color: #EEE8AA;
-  text-decoration: none;
-  }
-
-
-  #form li {
-  padding: 0.5em;
-  }
+.listaeventi {
+	border-bottom: 2px dashed grey;
+	}
+#oraevento {
+	font-weight: bold;
+	border-bottom: 1px dashed grey;
+	padding-bottom: 1em;
+	}
+.footer {
+	text-align: center;
+	font-size: 0.8em;
+	background-color: #455A64;
+	margin: 0;
+	padding: 1em;
+	}
+.footer p {
+	color: white; 
+	}
+.footer a {
+	font-weight: bold;
+	color: white;
+	text-decoration: none;
+	}
+#form li {
+	padding: 0.5em;
+	}
