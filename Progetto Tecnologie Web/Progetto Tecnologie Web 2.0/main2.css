@@ -155,10 +155,10 @@ html, body {
   
   .opinioni {
   position: relative;
-  width: 100%;
+  width: 90%;
   text-align: center;
-  margin: 5%;
-  padding: 5%;
+  margin: 3%;
+  padding: 2%;
   }
   .opinioni h2 {
   font-size: 3em;
