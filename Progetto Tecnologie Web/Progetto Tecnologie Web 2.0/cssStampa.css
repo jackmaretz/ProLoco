@@ -10,18 +10,15 @@ html, body {
 	margin-left:1%;
 	background:none;
 	text-align:center;
-	
 }
-
 .header h1 {
-  	
-	font-size: 1em;
+	font-size: 10pt;
 	text-align: center;
-  	
   }
-  .eventi img {
-  width: 95%;
-  display: none;
-  }
+.eventi img {
+	width: 95%;
+	display: none;
+	}
+
 
 
