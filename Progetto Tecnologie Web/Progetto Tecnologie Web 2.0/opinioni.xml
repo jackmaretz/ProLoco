@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="opinioni.xsl"?>
+
+<opinioni>
+
+  <opinione>
+    <nomecognome>Mario Rossi</nomecognome>
+    <pensiero>Bellissime tutte le sagre</pensiero>
+  </opinione>
+  
+  <opinione>
+    <nomecognome>Patrizio Stella</nomecognome>
+    <pensiero>Pro Loco stupenda</pensiero>
+  </opinione>
+  
+</opinioni>
+

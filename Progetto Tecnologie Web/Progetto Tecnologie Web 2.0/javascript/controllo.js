@@ -18,7 +18,7 @@ function valida(campi)
 function controllaCampi() 
 {	
 	var errore = "";
-	var campi = ["Nome", "Cognome" , "Email" , "Messaggio"];
+	var campi = ["name", "surname" , "email" , "message"];
 
 	
 	if (valida(campi)) 
