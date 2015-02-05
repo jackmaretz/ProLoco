@@ -24,6 +24,7 @@ function controllaCampi()
 	if (valida(campi)) 
 	{
 		errore = "Alcuni campi non sono stati compilati!";
+		alert("merda");
 	} 
 
 	
