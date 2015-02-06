@@ -56,6 +56,13 @@
       Scrivi la tua opinione
     </textarea> </li>
     
+   <p><input type="button" name="controlla" id="controlla" value="Controlla campi"  tabindex="11" onclick="controllaCampi();"/>
+	</p>			
+	<p><input type="reset" name="cancella"  id="cancella" value="Cancella tutto" tabindex="12" />
+	</p>
+	<p><input type="submit" name="bottoneinvia" id="bottoneinvia" value="Invia" tabindex="13"  />
+	</p>
+    
   </form>
   
   
