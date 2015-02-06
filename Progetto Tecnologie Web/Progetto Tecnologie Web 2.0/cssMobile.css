@@ -167,6 +167,16 @@ html, body {
 	margin: 2em auto 0;
 	padding: 1em 0.5em;
 	}
+.info h2 {
+	font-size: 2em;
+	color: black;
+	text-align: center;
+	}
+.info p {
+	font-size: 0.8em;
+	color: black;
+	text-align: center;
+	}
 .info img{
 	width: 20%;
 	}
