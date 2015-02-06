@@ -7,9 +7,8 @@
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <title>Opinioni - Pro Loco di Zero Branco</title>
-<meta name="keywords" content="Pro Loco Zero Branco, Eventi Zero Branco, Feste Zero Branco" />
-<meta name="description" content="Pagina degli eventi della Pro Loco di Zero Branco." />
-
+    <meta name="keywords" content="Pro Loco Zero Branco, Eventi Zero Branco, Feste Zero Branco" />
+    <meta name="description" content="Pagina degli eventi della Pro Loco di Zero Branco." />
     <meta name="HandheldFriendly" content="True" />
 		<meta name="MobileOptimized" content="320" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0,minimum-scale=1.0, maximum-scale=1.0, user-scalable=no" />	
@@ -19,7 +18,6 @@
 <link rel="stylesheet" type="text/css" href="main2.css" />
 <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Cabin" />
 <link rel="stylesheet" type="text/css" href="cssStampa.css" media="print" />
-
 <link  rel="stylesheet" type="text/css" href="cssMobile.css" 
 	media="handheld, only screen and (max-width: 658px), only screen and (max-device-width: 658px)" />  
 </head>
@@ -29,7 +27,7 @@
     <ul>
       <li><a href="template.html">Home</a></li>
       <li><a href="eventi.html">Eventi</a></li>
-      <li><a href="foto.html">Foto</a></li>
+      <li><a href="curiosita.html">Curiosit&#224</a></li>
       <li><a href="contatti.html">Contatti</a></li>
       <li class="CurrentLink">Opinioni</li>
     </ul>
@@ -55,14 +53,18 @@
     <li><textarea rows="24" cols="28" name="pensiero">
       
     </textarea> </li>
-    
-   <p><input type="button" name="controlla" id="controlla" value="Controlla campi"  tabindex="11" onclick="controllaCampi();"/>
-	</p>			
+    <ul>
+   <li><p><input type="button" name="controlla" id="controlla" value="Controlla campi"  tabindex="11" onclick="controllaCampi();"/>
+	</p></li>
+
+  <li>
 	<p><input type="reset" name="cancella"  id="cancella" value="Cancella tutto" tabindex="12" />
+	</p></li>
+	
+  <li><p><input type="submit" name="bottoneinvia" id="bottoneinvia" value="Invia" tabindex="13"  />
 	</p>
-	<p><input type="submit" name="bottoneinvia" id="bottoneinvia" value="Invia" tabindex="13"  />
-	</p>
-    
+    </li>
+  </ul>
   </form>
   
   
