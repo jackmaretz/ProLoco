@@ -283,7 +283,17 @@ html, body {
   list-style-type: none;
   padding: 0.5em;
   }
-  
+  #formsx {
+	float: left;
+	text-align: center;
+	padding: 0 auto;
+	margin-left: 15%;
+	margin-right: 15%;
+	}
+
+#form li {
+	padding: 0.5em;
+	}
   #nomecognome li{
   list-style-type: none;
   text-align: center;
@@ -447,18 +457,5 @@ html, body {
 	color: white;
 	text-decoration: none;
 	}
-#formsx {
-	float: left;
-	text-align: center;
-	padding: 0 auto;
-	margin-left: 15%;
-	margin-right: 15%;
-	}
-#formdx {
-	list-style-type: none;
-	text-align: center;
-	}
-#form li {
-	padding: 0.5em;
-	}
+
 >>>>>>> origin/master
