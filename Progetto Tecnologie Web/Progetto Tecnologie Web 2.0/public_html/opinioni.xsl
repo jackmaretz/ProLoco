@@ -28,7 +28,7 @@
     <ul>
       <li><a href="template.html">Home</a></li>
       <li><a href="eventi.html">Eventi</a></li>
-      <li><a href="curiosita.html">Curiosit&#224 </a></li>
+      <li><a href="curiosita.html">Curiosit&#224; </a></li>
       <li><a href="contatti.html">Contatti</a></li>
       <li class="CurrentLink">Opinioni</li>
     </ul>

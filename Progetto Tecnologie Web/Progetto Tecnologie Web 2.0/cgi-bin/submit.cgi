@@ -116,3 +116,6 @@ print <<'EOF';
 </body>
 </html>
 
+EOF;
+exit;
+
