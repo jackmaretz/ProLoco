@@ -86,7 +86,7 @@
 </xsl:template> 
 
  <xsl:template match="//opinione">
-    <li id="nomecognome"><p><span><xsl:value-of select="nomecognome" /></span></p> </li>
+    <li id="nomecognome"><p><span><xsl:value-of select="nome" /></span></p> </li>
       <li id="listafinale"><p><xsl:value-of select="pensiero" /></p></li> 
     </xsl:template>
 
