@@ -7,7 +7,8 @@ function valida(campi)
 		if (document.getElementById(campi[i]).value == "") 
 		{
 			nessuno = true;
-			document.getElementById(campi[i]).style.border = "2px solid red";	
+			document.getElementById(campi[i]).style.border = "2px solid red";
+			alert('Merda');
 		}
 	}
 	return nessuno;
