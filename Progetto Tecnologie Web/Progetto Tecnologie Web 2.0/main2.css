@@ -120,6 +120,43 @@ html, body {
   margin: 0;
   padding: 0; 
   }
+  .curiosita{
+  position: relative;
+  width: 86%;
+  text-align: center;
+  margin: 2em auto 0;
+  padding: 1em 0.5em;	
+  }
+  .curiosita h2{
+  font-size: 3em;
+  color: black;
+  text-align: center;
+  }
+  .curiosita h3{
+  font-size: 2.4em;
+  color: black;
+  text-align: center;
+  }
+  .curiosita ul{
+  list-style-type: none;
+  margin: 0;
+  padding: 0; 	
+  }
+  .ricetta ul{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;	
+  }
+  .ricetta li{
+  display:inline;
+  }
+  .ricetta img{
+  width: 95%;
+  }
+  .ricetta p{
+  font-size: 1.5em;
+  color: black;	
+  }
   .contatti {
   background-color: #DCDCDC;
   position: relative;
@@ -151,8 +188,6 @@ html, body {
   margin: 0;
   padding: 0; 
   }
-  
-  
   .opinioni {
   position: relative;
   width: 100%;
@@ -175,12 +210,6 @@ html, body {
   font-size: 1.5em;
   color: black;
   }
-  
-  #paropinioni p{
-  font-family: "Cabin", Arial;
-  padding: 2.5em; 
-  }
-  
   .opinioni img {
   width: 95%;
   }
@@ -189,8 +218,10 @@ html, body {
   margin: 0;
   padding: 0; 
   }
-  
-  
+  #paropinioni p{
+  font-family: "Cabin", Arial;
+  padding: 2.5em; 
+  }
   
   .info{
   position: relative;
