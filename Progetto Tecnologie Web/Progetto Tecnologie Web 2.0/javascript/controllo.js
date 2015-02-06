@@ -8,7 +8,7 @@ function valida(campi)
 		{
 			nessuno = true;
 			document.getElementById(campi[i]).style.border = "2px solid red";
-			alert('Merda');
+			alert('Attenzione! Alcuni campi non sono stati completati');
 		}
 	}
 	return nessuno;
