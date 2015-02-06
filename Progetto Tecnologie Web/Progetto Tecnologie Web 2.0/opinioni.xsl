@@ -48,7 +48,7 @@
   <h3>Sei stato ad uno dei nostri eventi? Hai partecipato a qualche festa
   organizzata dalla Pro Loco? Lasciaci la tua opinione! </h3>
   
-  <form id="form" action="..." method="post">
+  <form id="form" action="./cgi-bin/submit.cgi" method="post">
     <li><label for="nome">Nome: </label></li>
     <li><input name="nome" id="nome" value="Inserisci nome" /></li>
     <li><label for="pensiero">Opinione: </label></li>
