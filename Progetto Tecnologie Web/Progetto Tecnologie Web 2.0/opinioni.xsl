@@ -48,7 +48,7 @@
   <h3>Sei stato ad uno dei nostri eventi? Hai partecipato a qualche festa
   organizzata dalla Pro Loco? Lasciaci la tua opinione! </h3>
   
-  <form id="form" action="./cgi-bin/submit.cgi" method="post">
+  <form id="form" action="/server2/2/2014/pstella/Documents/Progetto/cgi-bin/submit.cgi" method="post">
     <li><label for="nome">Nome: </label></li>
     <li><input name="nome" id="nome" value="Inserisci nome" /></li>
     <li><label for="pensiero">Opinione: </label></li>
@@ -86,7 +86,7 @@
 </xsl:template> 
 
  <xsl:template match="//opinione">
-    <li id="nomecognome"><p><span><xsl:value-of select="nome" /></span></p> </li>
+    <li id="nomecognome"><p><span><xsl:value-of select="nomecognome" /></span></p> </li>
       <li id="listafinale"><p><xsl:value-of select="pensiero" /></p></li> 
     </xsl:template>
 
