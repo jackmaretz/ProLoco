@@ -49,8 +49,8 @@
   organizzata dalla Pro Loco? Lasciaci la tua opinione! </h3>
   
   <form id="form" action="..." method="post">
-    <li><label for="nomecognome">Nome e cognome: </label></li>
-    <li><input name="nomecognome" id="nomecognome" value="Inserisci nome e cognome" /></li>
+    <li><label for="nome">Nome: </label></li>
+    <li><input name="nome" id="nome" value="Inserisci nome" /></li>
     <li><label for="pensiero">Opinione: </label></li>
     <li><textarea rows="24" cols="28" name="pensiero">
       Scrivi la tua opinione
