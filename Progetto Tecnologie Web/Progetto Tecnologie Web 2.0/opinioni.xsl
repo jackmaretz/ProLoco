@@ -27,7 +27,7 @@
       <li><a href="eventi.html">Eventi</a></li>
       <li><a href="foto.html">Foto</a></li>
       <li><a href="contatti.html">Contatti</a></li>
-      <li>opinioni</li>
+      <li class="CurrentLink">Opinioni</li>
     </ul>
   </div>
 <div class="inizio">  
