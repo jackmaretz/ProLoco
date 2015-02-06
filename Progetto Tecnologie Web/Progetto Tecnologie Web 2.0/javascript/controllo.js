@@ -7,8 +7,13 @@ function valida(campi)
 		if (document.getElementById(campi[i]).value == "") 
 		{
 			nessuno = true;
+<<<<<<< Updated upstream
 			document.getElementById(campi[i]).style.border = "2px solid red";
 			alert('Attenzione! Alcuni campi non sono stati completati');
+=======
+			document.getElementById(campi[i]).style.border = "2px solid red";	
+			
+>>>>>>> Stashed changes
 		}
 	}
 	return nessuno;
