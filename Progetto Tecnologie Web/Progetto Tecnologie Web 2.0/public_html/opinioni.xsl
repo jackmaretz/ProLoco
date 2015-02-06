@@ -49,11 +49,11 @@
   organizzata dalla Pro Loco? Lasciaci la tua opinione! </h3>
   
   <form id="form" action="/server2/2/2014/pstella/Documents/Progetto/cgi-bin/submit.cgi" method="post">
-    <li><label for="nome">Nome: </label></li>
-    <li><input name="nome" id="nome" value="Inserisci nome" /></li>
-    <li><label for="pensiero">Opinione: </label></li>
+    <li><label for="nome">Il tuo nome: </label></li>
+    <li><input name="nome" id="nome" value="" /></li>
+    <li><label for="pensiero">Scrivici la tuo opinione: </label></li>
     <li><textarea rows="24" cols="28" name="pensiero">
-      Scrivi la tua opinione
+      
     </textarea> </li>
     
    <p><input type="button" name="controlla" id="controlla" value="Controlla campi"  tabindex="11" onclick="controllaCampi();"/>
