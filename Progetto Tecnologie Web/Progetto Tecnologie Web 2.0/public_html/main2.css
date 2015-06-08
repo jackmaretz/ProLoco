@@ -120,6 +120,22 @@ html, body {
   margin: 0;
   padding: 0; 
   }
+  .eventi li a:link {
+  
+  color: black;
+  } 
+  .eventi li a:visited {
+  text-decoration: none;
+  color: black;
+  } 
+  .eventi li a:hover {
+  font-weight: bold;
+  
+  } 
+  .eventi li a:active {
+  text-decoration: none;
+  } 
+
   .curiosita{
   position: relative;
   width: 86%;

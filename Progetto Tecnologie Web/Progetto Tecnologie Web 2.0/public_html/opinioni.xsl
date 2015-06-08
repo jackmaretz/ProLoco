@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-   <xsl:stylesheet version="1.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xml:space="preserve">
-   <xsl:transform version="1.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
+   <xsl:stylesheet version="1.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xml:space="preserve">  
   <xsl:output method='html' version='1.0' encoding='UTF-8' indent='yes' />
 
 <xsl:template match="opinioni">
@@ -60,9 +59,9 @@
 		</form>
 		<p>Queste sono le opinioni della gente che ci ha visitato</p> 
 	</div>     
-	<!--<ul>-->
+	
 				<xsl:apply-templates select="//opinione" />
-	<!--</ul>-->
+
 </div>
 <div class="footer">
 	<p>Pro Loco di Zero Branco</p>
@@ -77,5 +76,8 @@
     <li id="nome"><p><span><xsl:value-of select="nome" /></span></p> </li>
       <li id="listafinale"><p><xsl:value-of select="pensiero" /></p></li> 
  </xsl:template>
+<<<<<<< HEAD
 </xsl:transform>     
+=======
+>>>>>>> origin/master
 </xsl:stylesheet>

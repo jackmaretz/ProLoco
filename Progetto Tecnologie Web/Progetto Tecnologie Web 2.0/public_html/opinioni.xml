@@ -1,7 +1,8 @@
-<?xml version="1.0" encoding="UTF-8" ?>
-<?xml-stylesheet type="text/xsl" href=“opinioni.xsl"?>
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="opinioni.xsl"?>
   
 <opinioni>
+
 	<opinione>
 		<nome>Mario</nome>
 		<pensiero>Eventi bellissimi</pensiero>
@@ -11,4 +12,5 @@
 	<nome>Luca</nome>
 	<pensiero>Manifestazioni bellissime</pensiero>
 	</opinione>
+
 </opinioni>
