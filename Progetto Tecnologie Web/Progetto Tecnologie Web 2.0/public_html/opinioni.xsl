@@ -77,5 +77,5 @@
     <li id="nome"><p><span><xsl:value-of select="nome" /></span></p> </li>
       <li id="listafinale"><p><xsl:value-of select="pensiero" /></p></li> 
  </xsl:template>
-     
+</xsl:transform>     
 </xsl:stylesheet>
